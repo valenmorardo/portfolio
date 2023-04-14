@@ -1,0 +1,81 @@
+.header {
+  top: 0;
+  background-color: #dd969c;
+  position: sticky;
+  z-index: 100000;
+  width: 100%;
+  
+}
+
+.contentPrimary {
+  color: #272727;
+  margin: 0;
+  padding: 10px 30px;
+  display: grid;
+  grid-template-columns: 5% auto auto auto auto auto auto;
+  text-align: center;
+  align-items: center;
+}
+.contentPrimary img {
+  width: 50px;
+  height: 50px;
+}
+.contentPrimary h1 {
+  color: #272727;
+  font-size: 35px;
+  font-weight: bold;
+
+  border-radius: 10px;
+  background-color: #dd969c;
+  padding: 5px;
+
+  transition: all 0.3s ease-out;
+}
+.contentPrimary h1:hover {
+  color: white;
+  background-color: #9b6b70;
+}
+
+.contentSecondary {
+  margin: 0;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contentSecondary img {
+  width: 50px;
+  height: 50px;
+}
+
+.divmenu {
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(180deg, #272727 0%, #272727 65%, #dd969c 100%);
+  transition: all 0.15s ease-in-out;
+  z-index: 10000;
+}
+.opening {
+  animation: slideIn 0.55s ease-in-out;
+  animation-iteration-count: 1;
+}
+.closing {
+  animation: slideOut 0.5s ease-in-out;
+  animation-iteration-count: 1;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideOut {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

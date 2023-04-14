@@ -1,0 +1,84 @@
+@media screen and (max-width: 1300px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    width: auto;
+    min-height: 30vh;
+
+    margin: 100px 25px 100px 25px;
+  }
+
+  .content h1 {
+    font-size: 40px;
+    border-bottom: solid 3px #dd969c;
+    margin: 5px 0px 10px 0px;
+  }
+
+  .content p {
+    font-size: 25px;
+  }
+
+
+
+
+  .img {
+    width: auto;
+    margin-top: 10px;
+  }
+  .img img {
+    opacity: 0.8;
+    width: 60%;
+    height: 60%;
+  }
+}
+
+/* PANTALLAS ESCRITORIO */
+@media screen and (min-width: 1301px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    position: relative;
+
+    border: solid 1px #272727;
+    border-radius: 10px;
+    width: auto;
+    min-height: 30vh;
+    margin: 100px 110px 100px 110px;
+    box-shadow: 5px 5px 25px #000000;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .content h1 {
+    font-size: 50px;
+    border-bottom: solid 3px #dd969c;
+    margin: 10px 0px 20px 0px;
+  }
+ 
+
+  .content p {
+    font-size: 25px;
+    margin-right: 20px;
+  }
+
+  .img {
+    text-align: center;
+    width: 50%;
+
+  }
+  .img img {
+    opacity: 0.8;
+    width: 70%;
+  }
+}

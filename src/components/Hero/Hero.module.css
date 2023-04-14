@@ -1,0 +1,146 @@
+/* PANTALLAS CELULARES / TABLETS */
+@media screen and (max-width: 1300px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    text-align: center;
+
+    width: auto;
+    min-height: 60vh;
+    margin: 60px 25px 100px 25px;
+  }
+
+  .data {
+    text-align: center;
+    width: 100%;
+  }
+  .data h1 {
+    line-height: 55px;
+    color: #dd969c;
+    font-size: 65px;
+  }
+  .data span {
+    line-height: 35px;
+    font-size: 40px;
+  }
+  .data h4 {
+    font-size: 24px;
+    margin: 40px;
+  }
+
+  .button {
+    color: #272727;
+    border-radius: 20px;
+    border-color: #dd969c;
+    border-style: solid;
+
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 20px;
+    padding: 15px;
+    background-color: #dd969c;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease-out;
+  }
+  .button:hover {
+    background-color: #9b6b70;
+
+    color: white;
+  }
+
+  .img {
+    width: 50%;
+    height: 50%;
+    margin: 30px 0px 30px 0px;
+  }
+  .img img {
+    opacity: 0.8;
+    width: 100%;
+    
+
+    border-radius: 70px;
+    box-shadow: 0px 0px 15px #dd969c;
+  }
+}
+
+/* PANTALLAS ESCRITORIO */
+@media screen and (min-width: 1301px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    border: solid 1px #272727;
+    border-radius: 10px;
+    width: auto;
+    min-height: 60vh;
+    margin: 100px 110px 100px 110px;
+    box-shadow: 5px 5px 25px #000000;
+  }
+
+  .data {
+    margin: 20px;
+    text-align: center;
+    width: 70vh;
+  }
+  .data h1 {
+    line-height: 55px;
+    color: #dd969c;
+    font-size: 65px;
+  }
+  .data span {
+    line-height: 35px;
+    font-size: 40px;
+  }
+  .data h4 {
+    font-size: 24px;
+    margin: 100px;
+  }
+
+  .button {
+    color: #272727;
+    border-radius: 20px;
+    border-color: #dd969c;
+    border-style: solid;
+
+    font-family: "Rajdhani";
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 20px;
+    padding: 15px;
+    background-color: #dd969c;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease-out;
+  }
+  .button:hover {
+    background-color: #9b6b70;
+
+    color: white;
+  }
+
+  .img {
+    border: solid 10px #dd969c;
+    border-radius: 80px;
+    border-style: unset;
+    padding: 55px;
+    box-shadow: 0px 0px 20px #dd969c;
+    width: 25%;
+    height: 25%;
+    margin: 60px;
+  }
+  .img img {
+    opacity: 0.8;
+    width: 100%;
+    border-radius: 80px;
+    box-shadow: 0px 0px 15px #dd969c;
+  }
+}
