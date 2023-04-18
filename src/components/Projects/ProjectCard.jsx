@@ -6,7 +6,7 @@ const ProjectCard = ({ data }) => {
   return (
     <div className={s.card}>
       <div className={s.divImage}>
-        <img src={data.logo} className={s.image} />
+        <img src={data.logo} className={s.image}/>
       </div>
 
       <div className={s.content}>
@@ -16,7 +16,7 @@ const ProjectCard = ({ data }) => {
         <div className={s.techStack}>
           <h3>TechStack</h3>
           {data.techStack.map((e) => (
-            <img src={e} />
+            <img src={e} width="5%"/>
           ))}
         </div>
 
