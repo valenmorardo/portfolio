@@ -1,4 +1,4 @@
-@media screen and (min-width: 1301px) {
+@media screen and (min-width: 1305px) {
   .container {
     position: relative;
     display: grid;
@@ -60,7 +60,7 @@
   
 }
 
-@media screen and (max-width: 1300px ) {
+@media screen and (max-width: 1304px ) {
   .container {
     display: flex;
     justify-content: center;

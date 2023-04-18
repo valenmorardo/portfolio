@@ -1,4 +1,5 @@
-@media screen and (max-width: 1300px) {
+/* PANTALLA CELULAR */
+@media screen and (max-width: 1304px) {
   .container {
     display: flex;
     flex-direction: column-reverse;
@@ -20,6 +21,7 @@
 
   .content p {
     font-size: 25px;
+    margin: 0px 20px 0px 20px;
   }
 
 
@@ -37,7 +39,7 @@
 }
 
 /* PANTALLAS ESCRITORIO */
-@media screen and (min-width: 1301px) {
+@media screen and (min-width: 1305px) {
   .container {
     display: flex;
     align-items: center;

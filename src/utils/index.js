@@ -23,12 +23,15 @@ import typingBro from "../assets/Code typing-bro.png";
 /* formation */
 import obraje from "../assets/logoObraje.jpg";
 import henry1 from "../assets/LogoHenry.png";
-import henry2 from "../assets/LogoHenry2.png";
-import FCEFyN from "../assets/FCEFyN.jpg"
-import oxford from '../assets/oxford.jpg'
+
+import FCEFyN from "../assets/FCEFyN.png";
+import oxford from "../assets/oxford.png";
 
 /* utils */
-import externalLink from "../assets/externalLink.png"
+import externalLink from "../assets/externalLink.png";
+
+/*Projects*/
+import HypeShop from "../assets/HypeShop.png";
 
 const images = {
   profilePic,
@@ -59,7 +62,7 @@ const formation = [
     state: "Graduate",
     logo: obraje,
     diplomaLink: "/diplomaObraje_ValentinMorardo.pdf",
-    webLink: "https://www.elobraje.edu.ar/"
+    webLink: "https://www.elobraje.edu.ar/",
   },
 
   {
@@ -69,7 +72,7 @@ const formation = [
     state: "Graduate",
     logo: henry1,
     diplomaLink: "/diplomaSoyHenry_ValentinMorardo.pdf",
-    webLink: "https://www.soyhenry.com/"
+    webLink: "https://www.soyhenry.com/",
   },
 
   {
@@ -78,8 +81,8 @@ const formation = [
     type: "University education",
     state: "Paused",
     logo: FCEFyN,
-    diplomaLink: "-",
-    webLink: "https://fcefyn.unc.edu.ar/"
+
+    webLink: "https://fcefyn.unc.edu.ar/",
   },
 
   {
@@ -88,9 +91,34 @@ const formation = [
     type: "English academy",
     state: "In progress",
     logo: oxford,
-    diplomaLink: "-",
-    webLink: "https://www.instagram.com/oxfordaltagracia/"
+
+    webLink: "https://www.instagram.com/oxfordaltagracia/",
   },
 ];
 
-export { images, formation };
+const projects = [
+  {
+    id: 1,
+    title: "HypeShop",
+    description:
+      "Final project of SoyHenry's full stack development bootcamp. HypeShop is Online shoe store simulator application",
+    techStack: [
+      JavaScript,
+      ReactJS,
+      Redux,
+      HTML5,
+      CSS3,
+      NodeJS,
+      ExpressJS,
+      PostgreSQL,
+    ],
+    logo: HypeShop,
+    repositoryLink: "https://github.com/Littyfever/PF-Hype-Shop",
+    demoLink: "https://hype-kappa.vercel.app/",
+    videoLink: "https://youtu.be/JowFmyuF_c0",
+  },
+
+
+];
+
+export { images, formation, projects };

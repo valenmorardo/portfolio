@@ -1,5 +1,5 @@
 /* PANTALLAS CELULARES / TABLETS */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1304px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -39,6 +39,7 @@
     border-style: solid;
 
     font-weight: bold;
+    font-family: "Rajdhani";
     font-size: 1.2rem;
     margin: 20px;
     padding: 15px;
@@ -65,12 +66,12 @@
     
 
     border-radius: 70px;
-    box-shadow: 0px 0px 15px #dd969c;
+    box-shadow: 0px 0px 25px #dd969c;
   }
 }
 
 /* PANTALLAS ESCRITORIO */
-@media screen and (min-width: 1301px) {
+@media screen and (min-width: 1305px) {
   .container {
     display: flex;
     align-items: center;
@@ -128,19 +129,17 @@
   }
 
   .img {
-    border: solid 10px #dd969c;
-    border-radius: 80px;
-    border-style: unset;
-    padding: 55px;
-    box-shadow: 0px 0px 20px #dd969c;
-    width: 25%;
-    height: 25%;
+
+    
+    
+    width: 35%;
+    
     margin: 60px;
   }
   .img img {
     opacity: 0.8;
     width: 100%;
     border-radius: 80px;
-    box-shadow: 0px 0px 15px #dd969c;
+    box-shadow: 0px 0px 25px #dd969c;
   }
 }

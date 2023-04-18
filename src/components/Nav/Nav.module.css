@@ -4,7 +4,12 @@
   position: sticky;
   z-index: 100000;
   width: 100%;
+  opacity: .7;
+  transition: all 0.3s;
   
+}
+.header:hover {
+  opacity: 1;
 }
 
 .contentPrimary {
@@ -15,6 +20,7 @@
   grid-template-columns: 5% auto auto auto auto auto auto;
   text-align: center;
   align-items: center;
+  gap: 10px;
 }
 .contentPrimary img {
   width: 50px;
@@ -48,7 +54,19 @@
   height: 50px;
 }
 
+.vm {
+  color: #272727;
+  margin: 20px;
+}
+
+@media screen and (max-width: 449px){
+  .vm {
+      display: none;
+  }
+}
+
 .divmenu {
+  
   position: fixed;
   width: 100%;
   background: linear-gradient(180deg, #272727 0%, #272727 65%, #dd969c 100%);

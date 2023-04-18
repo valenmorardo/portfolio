@@ -40,7 +40,7 @@ const Nav = () => {
   //aca cierro el menu, si el ancho de la pantalla es mayor a 980px
   useEffect(() => {
     const closeMenu = () => {
-      if (window.innerWidth >= 1300) {
+      if (window.innerWidth >= 1304) {
         setIsMenuOpen(false);
         setIsMenuVisible(false);
       } else {
@@ -55,7 +55,7 @@ const Nav = () => {
 
   return (
     <header className={s.header}>
-      {!(screenWidth <= 1300) ? (
+      {!(screenWidth <= 1304) ? (
         <div className={s.contentPrimary}>
           <a href="/#top">
             <img src={images.logoNav} alt="xd" />
@@ -88,6 +88,7 @@ const Nav = () => {
       ) : (
         <div className={s.contentSecondary}>
           <a href="#top"><img src={images.logoNav} alt="xd" /></a>
+          <h1 className={s.vm}>Valentin_Morardo</h1>
           <Hamburger
             rounded
             role="button"
@@ -101,11 +102,13 @@ const Nav = () => {
         </div>
       )}
 
-      <div className={`${s.divmenu} ${!isMenuVisible ? s.closing : s.opening}`}>
+      
         {isMenuOpen ? (
-          <Menu isMenuVisible={isMenuVisible} toggleMenu={toggleMenu} />
+          <div className={`${s.divmenu} ${!isMenuVisible ? s.closing : s.opening}`}>
+            <Menu isMenuVisible={isMenuVisible} toggleMenu={toggleMenu} />
+          </div>
         ) : null}
-      </div>
+      
     </header>
   );
 };

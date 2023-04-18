@@ -5,37 +5,41 @@ import { images } from "../../utils/index";
 
 const FormationCard = ({ data }) => {
   return (
-    <div className={s.card}>
-      <img src={data.logo} alt={data.title} className={s.image} />
+    <div className={data.diplomaLink? s.card1 : s.card2}>
+      <div className={s.divImg}>
+        <img src={data.logo} alt={data.title} className={s.image}  />
+      </div>
 
       <div className={s.content}>
-        <h1>{data.title}</h1>
+        <h1 className={s.title}>{data.title}</h1>
 
         <h2>
           Site:{" "}
           <a href={data.webLink} target="_blank" rel="noreferrer">
-            <span className={s.site}>
+            <span className={s.siteLink}>
               {data.site}{" "}
               <img src={images.externalLink} className={s.externalLogo} />{" "}
             </span>
           </a>
         </h2>
 
-        <h2>
+        <h2 >
           Type: <span>{data.type}</span>
         </h2>
-        <h2>
-          State: <span>{data.state}</span>
+
+        <h2 >
+          Status: <span>{data.state}</span>
         </h2>
       </div>
 
-      <div className={s.divBtn}>
-        {data.diplomaLink !== "-" ? (
+      {data.diplomaLink ? (
+        <div className={s.divBtn}>
           <a href={data.diplomaLink} target="_blank" rel="noreferrer">
             <button className={s.button}>VIEW_DIPLOMA</button>
           </a>
-        ) : null}
-      </div>
+        </div>
+      ) : null}
+
     </div>
   );
 };
