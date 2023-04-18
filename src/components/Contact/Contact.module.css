@@ -1,0 +1,91 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #dd969c;
+}
+.container span {
+    font-size: 17px;
+  }
+  .icon {
+    font-size: 50px;
+    margin: 10px;
+    color: #dd969c;
+    transition: all 0.6s;
+  }
+
+
+/* PANTALLA ESCRITORIO */
+@media screen and (min-width: 1305px) {
+  .section {
+    position: relative;
+    text-align: center;
+
+    border: solid 1px #272727;
+    border-radius: 10px;
+
+    width: auto;
+
+    margin: 100px 110px 100px 110px;
+    padding: 20px 20px 0px 20px;
+    box-shadow: 5px 5px 25px #000000;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+
+    gap: 80px;
+    margin: 40px 30px 40px 30px;
+  }
+
+  .card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 25px #dd969c;
+    transition: all 0.6s;
+  }
+  .card:hover {
+    background-color: #1f1f1f;
+    box-shadow: 0px 0px 25px white;
+    color: white;
+  }
+  .card:hover .icon {
+    color: white;
+  }
+
+}
+
+/* pantalla celular */
+@media screen and (max-width: 1304px) {
+  .section {
+    position: relative;
+    text-align: center;
+
+    width: auto;
+    margin: 100px 25px 100px 25px;
+  }
+
+  .container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 80px;
+    margin: 40px 30px 0px 30px;
+  }
+  .card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 25px #dd969c;
+    transition: all 0.6s;
+  }
+
+}
