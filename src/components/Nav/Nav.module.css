@@ -64,7 +64,7 @@
 }
 
 .divmenu {
-  overflow: hidden;
+  
   position: absolute;
   width: 100%;
   background: linear-gradient(180deg, #272727 0%, #272727 65%, #dd969c 100%);
