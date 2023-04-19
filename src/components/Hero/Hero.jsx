@@ -22,6 +22,7 @@ const Home = () => {
 
   return (
     <section id="home" className={s.section}>
+      <h3 className={s.title}>HERO</h3>
       <div className={s.container}>
         <div className={s.content}>
           <div className={s.data}>

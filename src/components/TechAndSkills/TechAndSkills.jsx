@@ -8,7 +8,7 @@ import s from "./TechSkills.module.css";
 const TechAndSkills = () => {
   return (
     <section className={s.container}>
-
+      <h3 className={s.title}> TECHNOLOGIES and SKILLS</h3>
       <div className={s.techs}>
         <h1>TECHNOLOGIES</h1>
         <div className={s.cardsTechContainer}>

@@ -10,7 +10,7 @@ const MyProjects = () => {
   return (
     <section className={s.section}>
 
-      <h1 className={s.title}>MY_PROJECTS</h1>
+      <h3 className={s.title}>MY_PROJECTS</h3>
       <div className={s.container}>
         {projects.map((e) => (
           <ProjectCard data={e}/>

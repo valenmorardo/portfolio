@@ -6,7 +6,7 @@ import { images } from "../../utils";
 const AboutMe = () => {
   return (
     <section className={s.section}>
-      <h1 className={s.title}>ABOUT_ME</h1>
+      <h3 className={s.title}>ABOUT_ME</h3>
 
       <div className={s.container}>
         <div className={s.divImg}>

@@ -8,7 +8,7 @@ import s from "./Formation.module.css";
 const Formation = () => {
   return (
     <section className={s.section}>
-    <h1 className={s.title}>FORMATION</h1>
+    <h3 className={s.title}>FORMATION</h3>
 
       <div className={s.container}>
         {formation.map((e) => (

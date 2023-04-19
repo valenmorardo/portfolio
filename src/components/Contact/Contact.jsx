@@ -9,7 +9,7 @@ import externalLink from "../../assets/externalLink.png";
 const Contact = () => {
   return (
     <section className={s.section}>
-      <h1 className={s.title}>CONTACT</h1>
+      <h3 className={s.title}>CONTACT</h3>
 
       <div className={s.container}>
         <a
