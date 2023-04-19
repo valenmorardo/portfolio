@@ -17,6 +17,11 @@
   font-size: 30px;
 }
 
+.botones a {
+  text-decoration: none;
+  color: #272727;
+}
+
 
 /* PANTALLAS ESCRITORIO */
 @media screen and (min-width: 1305px) {
@@ -60,6 +65,7 @@
   }
 
   .botones button {
+    color: #272727;
     padding: 20px;
     width:100%;
     background-color: #dd969c;
@@ -115,6 +121,7 @@
   }
 
   .botones button {
+    color: #272727;
     padding: 20px;
     width:100%;
     background-color: #dd969c;
@@ -135,6 +142,7 @@
   }
 
   .botones button {
+    color: #272727;
     padding: 20px;
     width:100%;
     background-color: #dd969c;
