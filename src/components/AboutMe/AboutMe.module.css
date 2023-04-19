@@ -1,86 +1,81 @@
-/* PANTALLA CELULAR */
-@media screen and (max-width: 1304px) {
-  .container {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-    width: auto;
-    min-height: 30vh;
-
-    margin: 100px 25px 100px 25px;
-  }
-
-  .content h1 {
-    font-size: 40px;
-    border-bottom: solid 3px #dd969c;
-    margin: 5px 0px 10px 0px;
-  }
-
-  .content p {
-    font-size: 25px;
-    margin: 0px 20px 0px 20px;
-  }
-
-
-
-
-  .img {
-    width: auto;
-    margin-top: 10px;
-  }
-  .img img {
-    opacity: 0.8;
-    width: 60%;
-    height: 60%;
-  }
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #dd969c;
 }
+.divP p{
+  font-size: 25px;
+}
+.parrafo {
+  margin: 10px 0px 10px 0px;
+}
+
 
 /* PANTALLAS ESCRITORIO */
 @media screen and (min-width: 1305px) {
-  .container {
-    display: flex;
-    align-items: center;
+  .section {
+    text-align: center;
     justify-content: center;
-    flex-direction: row;
-
+    align-items: center;
     position: relative;
-
     border: solid 1px #272727;
     border-radius: 10px;
     width: auto;
-    min-height: 30vh;
     margin: 100px 110px 100px 110px;
+    padding: 20px 40px 0px 40px;
     box-shadow: 5px 5px 25px #000000;
   }
+  .container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    justify-items: center;
+    align-items: center;
 
-  .content {
-    display: flex;
-    flex-direction: column;
+    gap: 80px;
+    margin: 40px 30px 40px 30px;
+  }
+
+  .image {
     width: 100%;
   }
 
-  .content h1 {
-    font-size: 50px;
-    border-bottom: solid 3px #dd969c;
-    margin: 10px 0px 20px 0px;
-  }
- 
 
-  .content p {
-    font-size: 25px;
-    margin-right: 20px;
-  }
-
-  .img {
-    text-align: center;
-    width: 50%;
-
-  }
-  .img img {
-    opacity: 0.8;
-    width: 70%;
-  }
 }
+
+
+
+
+
+/* PANTALLA CELULAR */
+@media screen and (max-width: 1304px) {
+  .section {
+    position: relative;
+    text-align: center;
+
+    width: auto;
+    margin: 100px 25px 100px 25px;
+  }
+
+  .container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 10px;
+    margin: 30px 30px 0px 30px;
+  }
+
+  .image {
+    width: 60%;
+  }
+
+  .divP {
+    text-align: start;
+  }
+  
+}
+
