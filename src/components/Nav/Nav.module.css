@@ -4,13 +4,11 @@
   position: sticky;
   z-index: 100000;
   width: 100%;
-  opacity: .7;
+  
   transition: all 0.3s;
   
 }
-.header:hover {
-  opacity: 1;
-}
+
 
 .contentPrimary {
   color: #272727;
@@ -70,7 +68,7 @@
   position: fixed;
   width: 100%;
   background: linear-gradient(180deg, #272727 0%, #272727 65%, #dd969c 100%);
-  transition: all 0.15s ease-in-out;
+  transition: all 0.2s ease-in-out;
   z-index: 10000;
 }
 .opening {
