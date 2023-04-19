@@ -8,11 +8,20 @@
 }
 .divP p{
   font-size: 20px;
+  cursor: default;
 }
 .parrafo {
   margin: 10px 0px 10px 0px;
 }
 
+
+.divP a {
+  color: #dd969c;
+  transition: all 0.3s;
+}
+.divP a:hover {
+  font-weight: bold;
+}
 
 /* PANTALLAS ESCRITORIO */
 @media screen and (min-width: 981px) {
