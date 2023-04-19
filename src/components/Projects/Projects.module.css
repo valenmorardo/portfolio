@@ -8,7 +8,7 @@
 }
 
 /* PANTALLA ESCRITORIO */
-@media screen and (min-width: 1305px) {
+@media screen and (min-width: 981px) {
   .section {
     position: relative;
 
@@ -32,7 +32,7 @@
 }
 
 /* pantalla celular */
-@media screen and (max-width: 1304px) {
+@media screen and (max-width: 980px) {
   .section {
     position: relative;
     text-align: center;

@@ -40,7 +40,7 @@ const Nav = () => {
   //aca cierro el menu, si el ancho de la pantalla es mayor a 980px
   useEffect(() => {
     const closeMenu = () => {
-      if (window.innerWidth >= 1304) {
+      if (window.innerWidth >= 980) {
         setIsMenuOpen(false);
         setIsMenuVisible(false);
       } else {
@@ -55,7 +55,7 @@ const Nav = () => {
 
   return (
     <header className={s.header}>
-      {!(screenWidth <= 1304) ? (
+      {!(screenWidth <= 980) ? (
         <div className={s.contentPrimary}>
           <a href="/#top">
             <img src={images.logoNav} alt="xd" />

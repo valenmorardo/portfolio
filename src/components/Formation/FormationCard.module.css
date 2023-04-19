@@ -37,7 +37,7 @@
 
 /* PANTALLA ESCRITORIO */
 
-@media screen and (min-width: 1305px) {
+@media screen and (min-width: 981px) {
   .card1 {
     position: relative;
     width: 100%;
@@ -82,7 +82,7 @@
   }
 }
 
-@media screen and (max-width: 1304px) {
+@media screen and (max-width: 980px) {
   .card1 {
     position: relative;
     width: 100%;

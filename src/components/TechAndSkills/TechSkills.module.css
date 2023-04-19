@@ -1,8 +1,9 @@
-@media screen and (min-width: 1305px) {
+/* PANTALLA ESCRITORIO */
+@media screen and (min-width: 981px) {
   .container {
     position: relative;
     display: grid;
-    grid-template-columns: 65% auto;
+    grid-template-columns: 1fr 1fr;
   
     text-align: center;
   
@@ -39,7 +40,7 @@
   }
   
   .cardsSkillsContainer h2 {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: lighter;
   
     padding: 10px;
@@ -48,10 +49,11 @@
     border: 3px solid #dd969c;
   
     transition: transform 0.2s;
+    cursor: default;
   }
   
   .cardsSkillsContainer h2:hover {
-    transform: scale(1.3) translateY(-5px);
+    transform: scale(1.1) translateY(-2px);
   }
   
   .skills h1 {
@@ -60,7 +62,7 @@
   
 }
 
-@media screen and (max-width: 1304px ) {
+@media screen and (max-width: 980px ) {
   .container {
     display: flex;
     justify-content: center;

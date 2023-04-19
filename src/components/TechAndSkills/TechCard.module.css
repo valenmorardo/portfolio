@@ -1,31 +1,40 @@
-@media screen and (min-width: 1305px) {
+/* PANTALLA ESCRITORIO */
+@media screen and (min-width: 981px) {
   .card {
   margin: 25px;
+  
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
   transition: transform 0.2s;
 }
 .card:hover {
-  transform: scale(1.3) translateY(-5px);
+  transform: scale(1.1) translateY(-5px);
 }
 
 .card h2 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: lighter;
 }
 
 .card img {
-  width: 20%;
+  width: 30%;
 }
 
 
 }
 
-@media screen and (max-width: 1304px) {
+/* PANTALLA CELULAR */
+@media screen and (max-width: 980px) {
   .card{
     margin: 15px;
   }
   
   .card img {
-    width: 15%;
+    width: 30%;
   }
 
   .card h2 {

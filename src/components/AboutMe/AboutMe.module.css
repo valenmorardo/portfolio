@@ -7,7 +7,7 @@
   border-bottom: 3px solid #dd969c;
 }
 .divP p{
-  font-size: 25px;
+  font-size: 20px;
 }
 .parrafo {
   margin: 10px 0px 10px 0px;
@@ -15,7 +15,7 @@
 
 
 /* PANTALLAS ESCRITORIO */
-@media screen and (min-width: 1305px) {
+@media screen and (min-width: 981px) {
   .section {
     text-align: center;
     justify-content: center;
@@ -51,7 +51,7 @@
 
 
 /* PANTALLA CELULAR */
-@media screen and (max-width: 1304px) {
+@media screen and (max-width: 980px) {
   .section {
     position: relative;
     text-align: center;
