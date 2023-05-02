@@ -27,7 +27,7 @@ const Contact = () => {
         </a>
 
         <a
-          href="https://github.com/Littyfever"
+          href="https://github.com/valenmorardo"
           target="_blank"
           rel="noreferrer"
           aria-label="GitHub"
@@ -36,7 +36,7 @@ const Contact = () => {
           <div>
             <BsGithub className={s.icon} />
             <h1>GitHub</h1>
-            <span>github.com/Littyfever</span>
+            <span>github.com/valenmorardo</span>
           </div>
         </a>
 
