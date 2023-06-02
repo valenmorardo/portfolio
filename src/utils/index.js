@@ -32,6 +32,7 @@ import externalLink from "../assets/externalLink.png";
 
 /*Projects*/
 import HypeShop from "../assets/HypeShop.png";
+import PokedexAPP from "../assets/PokedexAPP.png"
 
 const images = {
   profilePic,
@@ -117,8 +118,26 @@ const projects = [
     demoLink: "https://hype-kappa.vercel.app/",
     videoLink: "https://youtu.be/JowFmyuF_c0",
   },
-
-
+  {
+    id: 1,
+    title: "Pokedex APP",
+    description:
+      "Remake of my individual project of SoyHenry's full stack development bootcamp. Pokedex APP is a web application where you can view the available Pokémon with their statistics, create your own Pokémon, and make donations.",
+    techStack: [
+      JavaScript,
+      ReactJS,
+      Redux,
+      HTML5,
+      CSS3,
+      NodeJS,
+      ExpressJS,
+      MongoDB,
+    ],
+    logo: PokedexAPP,
+    repositoryLink: "https://github.com/valenmorardo/Pokemon_RMK",
+    demoLink: "https://pokemon-rmk-valenmorardo.vercel.app/",
+    videoLink: "https://youtu.be/bauxt6v6Sm4",
+  },
 ];
 
 export { images, formation, projects };

@@ -16,7 +16,7 @@ const ProjectCard = ({ data }) => {
         <div className={s.techStack}>
           <h3>TechStack</h3>
           {data.techStack.map((e) => (
-            <img src={e} width="5%"/>
+            <img src={e}/>
           ))}
         </div>
 
