@@ -10,6 +10,7 @@ import NodeJS from "../assets/TechStack/NodeJS.png";
 import PostgreSQL from "../assets/TechStack/PostgreSQL.png";
 import ReactJS from "../assets/TechStack/ReactJS.png";
 import Redux from "../assets/TechStack/Redux.png";
+import Sequelize from "../assets/TechStack/Sequelize.png"
 
 /*Profile Pic*/
 import profilePic from "../assets/profilePic.jpg";
@@ -50,8 +51,10 @@ const images = {
     { ExpressJS: ExpressJS },
     { MongoDB: MongoDB },
     { PostgreSQL: PostgreSQL },
+    {Sequelize: Sequelize},
     { Git: Git },
     { GitHub: GitHub },
+    
   ],
 };
 
@@ -112,6 +115,7 @@ const projects = [
       NodeJS,
       ExpressJS,
       PostgreSQL,
+      Sequelize,
     ],
     logo: HypeShop,
     repositoryLink: "https://github.com/Littyfever/PF-Hype-Shop",
