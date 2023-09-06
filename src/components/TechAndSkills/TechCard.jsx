@@ -9,6 +9,11 @@ const TechCard = ({ data }) => {
           <img src={data.JavaScript} alt="JavaScript" />
           <h2>JavaScript</h2>
         </div>
+      ) : data.TypeScript ? (
+        <div className={s.card}>
+          <img src={data.TypeScript} alt="TypeScript" />
+          <h2>TypeScript</h2>
+        </div>
       ) : data.ReactJS ? (
         <div className={s.card}>
           <img src={data.ReactJS} alt="ReactJS" />
@@ -48,7 +53,7 @@ const TechCard = ({ data }) => {
         <div className={s.card}>
           <img src={data.PostgreSQL} alt="PostgreSQL" />
           <h2>PostgreSQL</h2>
-        </div>  
+        </div>
       ) : data.Sequelize ? (
         <div className={s.card}>
           <img src={data.Sequelize} alt="Sequelize" />

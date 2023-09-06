@@ -11,6 +11,7 @@ import PostgreSQL from "../assets/TechStack/PostgreSQL.png";
 import ReactJS from "../assets/TechStack/ReactJS.png";
 import Redux from "../assets/TechStack/Redux.png";
 import Sequelize from "../assets/TechStack/Sequelize.png"
+import TypeScript from "../assets/TechStack/TypeScript.png"
 
 /*Profile Pic*/
 import profilePic from "../assets/profilePic.jpg";
@@ -34,6 +35,7 @@ import externalLink from "../assets/externalLink.png";
 /*Projects*/
 import HypeShop from "../assets/HypeShop.png";
 import PokedexAPP from "../assets/PokedexAPP.png"
+import videogamesAPI from "../assets/videogamesAPI.png"
 
 const images = {
   profilePic,
@@ -43,6 +45,7 @@ const images = {
 
   techStack: [
     { JavaScript: JavaScript },
+    {TypeScript: TypeScript},
     { ReactJS: ReactJS },
     { Redux: Redux },
     { HTML5: HTML5 },
@@ -141,6 +144,23 @@ const projects = [
     repositoryLink: "https://github.com/valenmorardo/Pokemon_RMK",
     demoLink: "https://pokemon-rmk-valenmorardo.vercel.app/",
     videoLink: "https://youtu.be/bauxt6v6Sm4",
+  },
+  {
+    id: 2,
+    title: "Videogames CRUD - API Restful",
+    description:
+      "CRUD RESTful API for video games. It includes a registration and login system with JWT authentication and data encryption for users. Each user can view, create, update, and delete their own video games. Administrator system with authentication.",
+    techStack: [
+      TypeScript,
+      NodeJS,
+      ExpressJS,
+      Sequelize,
+      PostgreSQL,
+    ],
+    logo: videogamesAPI,
+    repositoryLink: "https://github.com/valenmorardo/crud-TypeScript",
+    demoLink: "https://videogamestscrud.onrender.com/api",
+    videoLink: 0,
   },
 ];
 
