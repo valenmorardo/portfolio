@@ -160,7 +160,7 @@ const projects = [
     logo: videogamesAPI,
     repositoryLink: "https://github.com/valenmorardo/crud-TypeScript",
     demoLink: "https://videogamestscrud.onrender.com/api",
-    videoLink: 0,
+    videoLink: 'https://youtu.be/LCu-S3Z3nfs?si=l7ZM71kyFboAxb3t',
   },
 ];
 
