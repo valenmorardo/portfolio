@@ -14,7 +14,7 @@ import Sequelize from "../assets/TechStack/Sequelize.png"
 import TypeScript from "../assets/TechStack/TypeScript.png"
 
 /*Profile Pic*/
-import profilePic from "../assets/profilePic.jpg";
+import profilePic from "../assets/profilePic.png";
 
 /* Logo nav */
 import logoNav from "../assets/logo.png";
