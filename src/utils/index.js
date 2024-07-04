@@ -26,7 +26,7 @@ import typingBro from "../assets/Code typing-bro.png";
 import obraje from "../assets/logoObraje.jpg";
 import henry1 from "../assets/LogoHenry.png";
 
-import FCEFyN from "../assets/FCEFyN.png";
+import UTNLogo from "../assets/UTNLogo.jpg"
 import oxford from "../assets/oxford.png";
 
 /* utils */
@@ -83,13 +83,13 @@ const formation = [
   },
 
   {
-    title: "Computer engineer",
-    site: "Faculty of Exact, Physical and Natural Sciences - National University of Córdoba",
+    title: "Systems engineering",
+    site: "UTN: National University of Cordoba",
     type: "University education",
-    state: "Paused",
-    logo: FCEFyN,
+    state: "In progress",
+    logo: UTNLogo,
 
-    webLink: "https://fcefyn.unc.edu.ar/",
+    webLink: "https://www.frc.utn.edu.ar/",
   },
 
   {
