@@ -2,7 +2,8 @@ import React from "react";
 
 import TechCard from "./TechCard";
 
-import {images} from "../../utils/index";
+/* import {images} from "../../utils/index"; */
+import { techStack } from "../../utils/index";
 import s from "./TechSkills.module.css";
 
 const TechAndSkills = () => {
@@ -12,7 +13,7 @@ const TechAndSkills = () => {
       <div className={s.techs}>
         <h1>TECHNOLOGIES</h1>
         <div className={s.cardsTechContainer}>
-          {images.techStack.map((e) => (
+          {techStack.map((e) => (
             <TechCard data={e} />
           ))}
         </div>
