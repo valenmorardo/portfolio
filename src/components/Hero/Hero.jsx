@@ -39,7 +39,7 @@ const Home = () => {
           </div>
 
           <div className={s.botones}>
-            <a href="/CV_Valentin-Morardo.pdf" target="_blank" rel="noreferrer">
+            <a href="/CV_Valentin_Morardo.pdf" target="_blank" rel="noreferrer">
               <button className={s.button}>GET_CURRICULUM</button>
             </a>
 
