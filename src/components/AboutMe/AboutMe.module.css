@@ -6,14 +6,13 @@
   padding-bottom: 5px;
   border-bottom: 3px solid #dd969c;
 }
-.divP p{
-  font-size: 20px;
+.divP p {
+  font-size: 1.8rem;
   cursor: default;
 }
 .parrafo {
   margin: 10px 0px 10px 0px;
 }
-
 
 .divP a {
   color: #dd969c;
@@ -51,13 +50,7 @@
   .image {
     width: 100%;
   }
-
-
 }
-
-
-
-
 
 /* PANTALLA CELULAR */
 @media screen and (max-width: 980px) {
@@ -85,6 +78,7 @@
   .divP {
     text-align: start;
   }
-  
+  .divP p {
+    font-size: 1.3rem;
+  }
 }
-

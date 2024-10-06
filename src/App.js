@@ -1,4 +1,3 @@
-import { BrowserRouter } from "react-router-dom";
 
 import Nav from "./components/Nav/Nav";
 import Hero from "./components/Hero/Hero";
@@ -12,7 +11,7 @@ import s from "./App.module.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <div className={s.mainContainer}>
         <Nav />
 
@@ -28,10 +27,9 @@ function App() {
           <Projects />
           <div id="contact"></div>
           <Contact />
-
         </main>
       </div>
-    </BrowserRouter>
+    </>
   );
 }
 

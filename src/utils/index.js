@@ -107,7 +107,6 @@ const techStack = [
     name: "GitHub",
     image: GitHub,
   },
-
 ];
 
 const formation = [
@@ -207,4 +206,14 @@ const projects = [
   },
 ];
 
-export { images, formation, projects, techStack };
+const skills = [
+  "Teamwork",
+  "Effective communication",
+  "Adaptability",
+  "Self-taught",
+  "Fast learning",
+  "Problem-solving",
+  "Empathy",
+];
+
+export { images, formation, projects, techStack, skills };

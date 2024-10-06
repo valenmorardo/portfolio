@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Menu from "./Menu";
 
 import s from "./Nav.module.css";
-import {images} from "../../utils";
+import { images } from "../../utils";
 import { Twirl as Hamburger } from "hamburger-react";
 
 const Nav = () => {
@@ -87,7 +87,9 @@ const Nav = () => {
         </div>
       ) : (
         <div className={s.contentSecondary}>
-          <a href="#top"><img src={images.logoNav} alt="xd" /></a>
+          <a href="#top">
+            <img src={images.logoNav} alt="navLogo" />
+          </a>
           <h1 className={s.vm}>Valentin_Morardo</h1>
           <Hamburger
             rounded
@@ -102,13 +104,13 @@ const Nav = () => {
         </div>
       )}
 
-      
-        {isMenuOpen ? (
-          <div className={`${s.divmenu} ${!isMenuVisible ? s.closing : s.opening}`}>
-            <Menu isMenuVisible={isMenuVisible} toggleMenu={toggleMenu} />
-          </div>
-        ) : null}
-      
+      {isMenuOpen ? (
+        <div
+          className={`${s.divmenu} ${!isMenuVisible ? s.closing : s.opening}`}
+        >
+          <Menu toggleMenu={toggleMenu} />
+        </div>
+      ) : null}
     </header>
   );
 };

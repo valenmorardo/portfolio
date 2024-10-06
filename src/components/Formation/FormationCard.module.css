@@ -54,7 +54,7 @@
 
   .card1:hover {
     background-color: #1f1f1f;
-    
+
     box-shadow: 0px 5px 25px white;
   }
   .card1:hover .divBtn .button {
@@ -77,7 +77,7 @@
   }
   .card2:hover {
     background-color: #1f1f1f;
-    
+
     box-shadow: 0px 5px 25px white;
   }
 }

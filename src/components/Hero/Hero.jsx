@@ -1,24 +1,9 @@
 import React from "react";
-import { useState, useEffect } from "react";
 
 import s from "./Hero.module.css";
 import { images } from "../../utils";
 
 const Home = () => {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const actualizarScreenWidth = () => {
-      setScreenWidth(window.innerWidth);
-    };
-
-    window.addEventListener("resize", actualizarScreenWidth);
-
-    // Limpia el listener del evento cuando el componente se desmonta
-    return () => {
-      window.removeEventListener("resize", actualizarScreenWidth);
-    };
-  }, []);
 
   return (
     <section id="home" className={s.section}>

@@ -1,38 +1,36 @@
 /* PANTALLA ESCRITORIO */
 @media screen and (min-width: 981px) {
   .card {
-  margin: 25px;
-  
+    margin: 25px;
+
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
     flex-direction: column;
 
-  transition: transform 0.2s;
-}
-.card:hover {
-  transform: scale(1.1) translateY(-5px);
-}
+    transition: transform 0.2s;
+  }
+  .card:hover {
+    transform: scale(1.1) translateY(-5px);
+  }
 
-.card h2 {
-  font-size: 20px;
-  font-weight: lighter;
-}
+  .card h2 {
+    font-size: 20px;
+    font-weight: lighter;
+  }
 
-.card img {
-  width: 30%;
-}
-
-
+  .card img {
+    width: 30%;
+  }
 }
 
 /* PANTALLA CELULAR */
 @media screen and (max-width: 980px) {
-  .card{
+  .card {
     margin: 15px;
   }
-  
+
   .card img {
     width: 30%;
   }
@@ -42,11 +40,3 @@
     font-weight: lighter;
   }
 }
-
-
-
-
-
-
-
-

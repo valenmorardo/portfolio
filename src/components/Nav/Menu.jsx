@@ -1,9 +1,8 @@
 import React from "react";
 
-
 import s from "./Menu.module.css";
 
-const Menu = ({ isMenuVisible, toggleMenu }) => {
+const Menu = ({ toggleMenu }) => {
   return (
     <section className={`${s.container}`}>
       <div className={s.content}>

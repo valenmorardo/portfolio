@@ -3,7 +3,7 @@ import React from "react";
 import TechCard from "./TechCard";
 
 /* import {images} from "../../utils/index"; */
-import { techStack } from "../../utils/index";
+import { techStack, skills } from "../../utils/index";
 import s from "./TechSkills.module.css";
 
 const TechAndSkills = () => {
@@ -22,16 +22,11 @@ const TechAndSkills = () => {
       <div className={s.skills}>
         <h1>SKILLS</h1>
         <div className={s.cardsSkillsContainer}>
-            <h2>Teamwork</h2>
-            <h2>Effective communication</h2>
-            <h2>Adaptability</h2>
-            <h2>Self-taught</h2>
-            <h2>Fast learning</h2>
-            <h2>Problem-solving</h2>
-            <h2>Empathy</h2>
+          {skills.map((skill) => (
+            <h2>{skill}</h2>
+          ))}
         </div>
       </div>
-
     </section>
   );
 };

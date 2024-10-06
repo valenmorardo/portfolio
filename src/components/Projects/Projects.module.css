@@ -25,7 +25,7 @@
     position: relative;
     display: grid;
     grid-template-rows: auto;
-    
+
     gap: 80px;
     margin: 40px 30px 40px 30px;
   }
@@ -40,7 +40,7 @@
     width: auto;
     margin: 100px 25px 100px 25px;
   }
-  
+
   .container {
     position: relative;
     display: grid;
