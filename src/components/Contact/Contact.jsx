@@ -4,7 +4,6 @@ import s from "./Contact.module.css";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
 
-import externalLink from "../../assets/externalLink.png";
 
 const Contact = () => {
   return (
