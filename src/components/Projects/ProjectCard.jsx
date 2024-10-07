@@ -25,9 +25,13 @@ const ProjectCard = ({ data }) => {
             <button>GitHub</button>
           </a>
 
-          <a href={data.demoLink} target="_blank" rel="noreferrer">
-            <button>Demo</button>
-          </a>
+          {data.demoLink ? (
+            <a href={data.demoLink} target="_blank" rel="noreferrer">
+              <button>Demo</button>
+            </a>
+          ) : (
+            <></>
+          )}
 
           <a href={data.videoLink} target="_blank" rel="noreferrer">
             <button>Video</button>

@@ -1,4 +1,3 @@
-
 import Nav from "./components/Nav/Nav";
 import Hero from "./components/Hero/Hero";
 import AboutMe from "./components/AboutMe/AboutMe";

@@ -25,19 +25,19 @@ import logoNav from "../assets/logo.png";
 import typingBro from "../assets/Code typing-bro.png";
 
 /* formation */
-import obraje from "../assets/logoObraje.jpg";
-import henry1 from "../assets/LogoHenry.png";
-
-import UTNLogo from "../assets/UTNLogo.jpg";
-import oxford from "../assets/oxford.png";
+import obraje from "../assets/formationImgs/logoObraje.jpg";
+import henry1 from "../assets/formationImgs/LogoHenry.png";
+import UTNLogo from "../assets/formationImgs/UTNLogo.jpg";
+import oxford from "../assets/formationImgs/oxford.png";
 
 /* utils */
 import externalLink from "../assets/externalLink.png";
 
 /*Projects*/
-import HypeShop from "../assets/HypeShop.png";
-import PokedexAPP from "../assets/PokedexAPP.png";
-import videogamesAPI from "../assets/videogamesAPI.png";
+import HypeShop from "../assets/projectsImgs/HypeShop.png";
+import PokedexAPP from "../assets/projectsImgs/PokedexAPP.png";
+import videogamesAPI from "../assets/projectsImgs/videogamesAPI.png";
+import reactFeatures from "../assets/projectsImgs/reactFeatures.png";
 
 const images = {
   profilePic,
@@ -158,9 +158,9 @@ const projects = [
     description:
       "Final project of SoyHenry's full stack development bootcamp. HypeShop is Online shoe store simulator application",
     techStack: [
-      JavaScript,
       ReactJS,
       Redux,
+      JavaScript,
       HTML5,
       CSS3,
       NodeJS,
@@ -179,9 +179,9 @@ const projects = [
     description:
       "Remake of my individual project of SoyHenry's full stack development bootcamp. Pokedex APP is a web application where you can view the available Pokémon with their statistics, create your own Pokémon, and make donations.",
     techStack: [
-      JavaScript,
       ReactJS,
       Redux,
+      JavaScript,
       HTML5,
       CSS3,
       NodeJS,
@@ -192,6 +192,18 @@ const projects = [
     repositoryLink: "https://github.com/valenmorardo/Pokemon_RMK",
     demoLink: "https://pokemon-rmk-valenmorardo.vercel.app/",
     videoLink: "https://youtu.be/bauxt6v6Sm4",
+  },
+  {
+    id: 3,
+    title: "React Features",
+    description:
+      "Features of React that simplify building interactive and efficient applications, including reusable components, state management with hooks, and the Virtual DOM for fast, seamless updates.",
+    techStack: [ReactJS, JavaScript, CSS3],
+    logo: reactFeatures,
+    repositoryLink: "https://github.com/valenmorardo/react-features",
+    demoLink: "",
+    videoLink:
+      "https://www.youtube.com/watch?v=Si0l7hPTVZQ&list=PL3-WXbWwKjqMrXIHxi5KdkEHyVYKNfsWH&ab_channel=valentin",
   },
   {
     id: 2,
