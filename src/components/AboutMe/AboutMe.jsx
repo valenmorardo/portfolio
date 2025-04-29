@@ -19,33 +19,12 @@ const AboutMe = () => {
 
         <div className={s.divP}>
           <p>
-            Hello! My name is Valentín Morardo and I am a full-stack web
-            developer. Since I was a child, I have always been fascinated by
-            technology, especially computers, so I decided to dedicate myself to
-            programming. I consider myself a passionate, optimistic, and
-            self-taught person, always facing challenges with a positive
-            attitude to overcome them.
-          </p>
-          <p className={s.parrafo}>
-            I have experience using{" "}
-            <a href="#techskills">technologies and tools</a> such as JavaScript,
-            ReactJS, Redux, HTML5, CSS3, NodeJS, ExpressJS, MongoDB, PostgreSQL,
-            and Git. Currently, I am dedicated to learning new content and
-            carrying out new projects to apply all my knowledge and continue
-            reinforcing it.
-          </p>
-          <p className={s.parrafo}>
-            Furthermore, I am attending an English academy here in my city to
-            improve and professionalize my English. During my free time, I enjoy
-            playing video games since I am an enthusiast and also do physical
-            training 2 or 3 times a week.
-          </p>
-          <p>
-            I am a responsible and committed person, and I am open to new job
-            opportunities and challenges. If you have any questions or if you
-            think we can collaborate on a project, don't hesitate to{" "}
-            <a href="#contact">contact me!</a> I am always willing to do my
-            best!
+            I'm a backend developer with strong expertise in Golang and
+            Node.js. I design and build APIs and backend systems focused on
+            performance, scalability, and reliability. My background as a full
+            stack developer gives me a complete understanding of web
+            applications, but today my passion lies in mastering backend
+            development and cloud infrastructure
           </p>
         </div>
       </div>

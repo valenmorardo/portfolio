@@ -29,6 +29,8 @@ import obraje from "../assets/formationImgs/logoObraje.jpg";
 import henry1 from "../assets/formationImgs/LogoHenry.png";
 import UTNLogo from "../assets/formationImgs/UTNLogo.jpg";
 import oxford from "../assets/formationImgs/oxford.png";
+import golang from "../assets/formationImgs/logoGo.png"
+
 
 /* utils */
 import externalLink from "../assets/externalLink.png";
@@ -48,28 +50,16 @@ const images = {
 
 const techStack = [
   {
+    name: "Golang",
+    image: golang
+  },
+  {
     name: "JavaScript",
     image: JavaScript,
   },
   {
     name: "TypeScript",
     image: TypeScript,
-  },
-  {
-    name: "ReactJS",
-    image: ReactJS,
-  },
-  {
-    name: "Redux",
-    image: Redux,
-  },
-  {
-    name: "HTML5",
-    image: HTML5,
-  },
-  {
-    name: "CSS3",
-    image: CSS3,
   },
   {
     name: "NodeJS",
@@ -111,15 +101,23 @@ const techStack = [
 
 const formation = [
   {
-    title: "Professional and Personal Computer Technician",
-    site: "El Obraje Parochial Technical Institute",
-    type: "Secondary education",
-    state: "Graduate",
-    logo: obraje,
-    diplomaLink: "/diplomaObraje_ValentinMorardo.pdf",
-    webLink: "https://www.elobraje.edu.ar/",
-  },
+    title: "Systems engineering",
+    site: "UTN: National University of Cordoba",
+    type: "University education",
+    state: "In progress",
+    logo: UTNLogo,
 
+    webLink: "https://www.frc.utn.edu.ar/",
+  },
+  
+  {
+    title: "Golang Backend Development",
+    site: "Self-taught (using Udemy courses, personal study and projects)",
+    type: "Complementary Education",
+    state: "In Progress",
+    logo: golang,
+  },
+  
   {
     title: "Full stack web developer",
     site: "SoyHenry Bootcamp",
@@ -129,17 +127,7 @@ const formation = [
     diplomaLink: "/diplomaSoyHenry_ValentinMorardo.pdf",
     webLink: "https://www.soyhenry.com/",
   },
-
-  {
-    title: "Systems engineering",
-    site: "UTN: National University of Cordoba",
-    type: "University education",
-    state: "In progress",
-    logo: UTNLogo,
-
-    webLink: "https://www.frc.utn.edu.ar/",
-  },
-
+  
   {
     title: "Advanced knowledge of English",
     site: "Oxford Institute - Alta Gracia, Cordoba",
@@ -149,6 +137,20 @@ const formation = [
 
     webLink: "https://www.instagram.com/oxfordaltagracia/",
   },
+  {
+    title: "Professional and Personal Computer Technician",
+    site: "El Obraje Parochial Technical Institute",
+    type: "Secondary education",
+    state: "Graduate",
+    logo: obraje,
+    diplomaLink: "/diplomaObraje_ValentinMorardo.pdf",
+    webLink: "https://www.elobraje.edu.ar/",
+  },
+
+
+
+
+
 ];
 
 const projects = [
@@ -193,18 +195,7 @@ const projects = [
     demoLink: "https://pokemon-rmk-valenmorardo.vercel.app/",
     videoLink: "https://youtu.be/bauxt6v6Sm4",
   },
-  {
-    id: 3,
-    title: "React Features",
-    description:
-      "Features of React that simplify building interactive and efficient applications, including reusable components, state management with hooks, and the Virtual DOM for fast, seamless updates.",
-    techStack: [ReactJS, JavaScript, CSS3],
-    logo: reactFeatures,
-    repositoryLink: "https://github.com/valenmorardo/react-features",
-    demoLink: "",
-    videoLink:
-      "https://www.youtube.com/watch?v=Si0l7hPTVZQ&list=PL3-WXbWwKjqMrXIHxi5KdkEHyVYKNfsWH&ab_channel=valentin",
-  },
+  
   {
     id: 2,
     title: "Videogames CRUD - API Restful",

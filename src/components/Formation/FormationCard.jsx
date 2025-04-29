@@ -15,16 +15,22 @@ const FormationCard = ({ data }) => {
 
         <h2>
           Site:{" "}
-          <a href={data.webLink} target="_blank" rel="noreferrer">
-            <span className={s.siteLink}>
-              {data.site}{" "}
-              <img
-                src={images.externalLink}
-                className={s.externalLogo}
-                alt="externalLink"
-              />{" "}
-            </span>
-          </a>
+          {data.webLink ? (
+            <a href={data.webLink} target="_blank" rel="noreferrer">
+              <span className={s.siteLink}>
+                {data.site}{" "}
+                <img
+                  src={images.externalLink}
+                  className={s.externalLogo}
+                  alt="externalLink"
+                />{" "}
+              </span>
+            </a>
+          ) : (
+            <span>
+            {data.site}{" "}
+          </span>
+          )}
         </h2>
 
         <h2>

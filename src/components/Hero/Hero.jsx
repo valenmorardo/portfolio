@@ -4,7 +4,6 @@ import s from "./Hero.module.css";
 import { images } from "../../utils";
 
 const Home = () => {
-
   return (
     <section id="home" className={s.section}>
       <h3 className={s.title}>HERO</h3>
@@ -13,13 +12,13 @@ const Home = () => {
           <div className={s.data}>
             <span>Hello there! I&#39;m</span>
             <h1>Valentin Morardo</h1>
-            <span>A full stack web developer</span>
+            <span>Golang Backend Developer</span>
           </div>
 
           <div className={s.frase}>
             <h4>
-              "Working hard is important, but there is something that matters
-              more, believing in yourself"
+              "I build scalable and high-performance back-end solutions,
+              specializing in Golang, Node.js"
             </h4>
           </div>
 
@@ -35,9 +34,12 @@ const Home = () => {
         </div>
 
         <div className={s.divImg}>
-          <img src={images.profilePic} alt="img not found"     className={s.image}/>
+          <img
+            src={images.profilePic}
+            alt="img not found"
+            className={s.image}
+          />
         </div>
-
       </div>
     </section>
   );
